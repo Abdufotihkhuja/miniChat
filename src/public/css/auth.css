@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: black;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  width: 40vw;
+  height: auto;
+  background-color: bisque;
+  color: black;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px 2px bisque;
+}
+input {
+  padding: 10px;
+  background-color: bisque;
+  font-size: 21px;
+  color: black;
+}
+button {
+  padding: 10px;
+  background-color: black;
+  font-size: 21px;
+  color: bisque;
+}
